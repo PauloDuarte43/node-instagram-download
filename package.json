@@ -1,0 +1,13 @@
+{
+  "name": "instagram-downloader",
+  "version": "0.2.0",
+  "description": "Download Instagram media (video / photo)",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}

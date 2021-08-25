@@ -1,0 +1,11 @@
+services:
+  web:
+    restart: always
+    build: .
+    command: [ "pm2-runtime", "start", "ecosystem.config.js" ]
+    networks:
+      - nginx-docker_some-net
+
+networks:
+  nginx-docker_some-net:
+    external: true
